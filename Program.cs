@@ -24,7 +24,7 @@ static class Program {
         
         while (true) {
             await state.UpdateAndNotify();
-            Thread.Sleep(10000);
+            Thread.Sleep(parsed_config.api.delay);
         }
     }
 }

@@ -1,5 +1,5 @@
-using StockQuoteAlert.Email;
-using StockQuoteAlert.State;
+using StockPriceWatcher.Mail;
+using StockPriceWatcher.State;
 
 namespace StockPriceWatcher.Observer;
 
