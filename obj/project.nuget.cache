@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mB4oaBfk4O1YE4mR7zcfgNoh/E2r+365xN7+sQCbje2YomjjxSqATxf/K/tt5JfafozNiRWDpBGAET+TlMOVtQ==",
+  "success": true,
+  "projectFilePath": "/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/StockQuoteAlert.csproj",
+  "expectedPackageFiles": [
+    "/home/dead/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

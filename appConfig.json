@@ -1,0 +1,16 @@
+{
+  "api": {
+    "key": "x7oEnmCaDFuFEGa4imhD42",
+    "delay": 1800000
+  },
+  "email": {
+    "smtp_server": "smtp_server_host",
+    "smtp_user": "smtp_server_username",
+    "smtp_password": "smtp_server_password",
+    "sender_list": [
+      "user1@email.com",
+      "user2@email.com",
+      "..."
+    ]
+  }
+}

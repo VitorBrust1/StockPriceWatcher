@@ -1,0 +1,14 @@
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/bin/Debug/net8.0/StockQuoteAlert
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/bin/Debug/net8.0/StockQuoteAlert.deps.json
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/bin/Debug/net8.0/StockQuoteAlert.runtimeconfig.json
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/bin/Debug/net8.0/StockQuoteAlert.dll
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/bin/Debug/net8.0/StockQuoteAlert.pdb
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/StockQuoteAlert.GeneratedMSBuildEditorConfig.editorconfig
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/StockQuoteAlert.AssemblyInfoInputs.cache
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/StockQuoteAlert.AssemblyInfo.cs
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/StockQuoteAlert.csproj.CoreCompileInputs.cache
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/StockQuoteAlert.dll
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/refint/StockQuoteAlert.dll
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/StockQuoteAlert.pdb
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/StockQuoteAlert.genruntimeconfig.cache
+/home/dead/codes/c#/stock_quote_alert/StockQuoteAlert/obj/Debug/net8.0/ref/StockQuoteAlert.dll
