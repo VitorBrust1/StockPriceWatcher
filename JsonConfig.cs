@@ -10,6 +10,7 @@ class JSONConfig {
         public string smtp_server {get; set;} = string.Empty;
         public string smtp_user {get; set;} = string.Empty;
         public string smtp_password {get; set;} = string.Empty;
+        public int smtp_port {get; set;}
         public List<string> sender_list {get; set;} = new List<string>();
     }
 

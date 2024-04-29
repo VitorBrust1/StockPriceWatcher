@@ -15,7 +15,8 @@ static class Program {
         Console.WriteLine($"Initializing Stock Alert for {user_input!.stock}");
 
         var api_handler = new ApiManager(parsed_config!.api!.key, parsed_config!.api.delay);
-        var email_handler = new MailManager(parsed_config!.email!.smtp_server, parsed_config!.email!.smtp_user, parsed_config!.email!.smtp_password);
+        var email_handler = new MailManager(parsed_config!.email!.smtp_server, parsed_config!.email!.smtp_user, parsed_config!.email!.smtp_password, parsed_config
+                !.email!.smtp_port);
         email_handler.AddSender(parsed_config!.email.sender_list);
 
         var observer = new StockObserver(email_handler, user_input.buy_price, user_input.sell_price);

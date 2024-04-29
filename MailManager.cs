@@ -8,10 +8,10 @@ class MailManager {
     private SmtpClient _smtp;
     private HashSet<MailAddress> _senderSet;
 
-    public MailManager(string host, string username, string password) {
+    public MailManager(string host, string username, string password, int smtp_port) {
         _senderSet = new HashSet<MailAddress>();
         _smtp = new SmtpClient(host) {
-            Port = 587,
+            Port = smtp_port,
             Credentials = new NetworkCredential(username, password),
             EnableSsl = true,
         };
@@ -36,8 +36,8 @@ class MailManager {
 
     // Trocar as mensagens
     private MailMessage CreateSellMessage(StockState stock) => new() {
-        From = new MailAddress("noreply@stockalert.com"),
-        Subject = $"Selling advice regarding one of your assets: {stock.targetStock}",
+        From = new MailAddress("mailtrap@demomailtrap.com"),
+        Subject = $"New advancements in regards to the price of the stock: {stock.targetStock}",
         Body = @$"One of your assets that's being tracked, {stock.targetStock}, currently has price of
                   {stock.price} {stock.currency}, which is greater than your upperbound threshold. It's
                   a good time to sell these assets!",
@@ -45,8 +45,8 @@ class MailManager {
     };
 
     private MailMessage CreateBuyMessage(StockState stock) => new() {
-        From = new MailAddress("noreply@stockalert.com"),
-        Subject = $"Buying advice regarding one of your assets: {stock.targetStock}",
+        From = new MailAddress("mailtrap@demomailtrap.com"),
+        Subject = $"New advancements in regards to the price of the stock: {stock.targetStock}",
         Body = @$"One of your assets that's being tracked, {stock.targetStock}, currently has price of
                   {stock.price} {stock.currency}, which is lesser than your lowerbound threshold. It's
                   a good time to buy some of these assets!",

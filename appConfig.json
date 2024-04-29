@@ -4,13 +4,12 @@
     "delay": 1800000
   },
   "email": {
-    "smtp_server": "smtp_server_host",
-    "smtp_user": "smtp_server_username",
-    "smtp_password": "smtp_server_password",
+    "smtp_server": "live.smtp.mailtrap.io",
+    "smtp_user": "api",
+    "smtp_password": "cfa39c3c7d78b3638ccaa5c8b1bac519",
+    "smtp_port": 587,
     "sender_list": [
-      "user1@email.com",
-      "user2@email.com",
-      "..."
+      "vitorbrustolin2@hotmail.com"
     ]
   }
 }

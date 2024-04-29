@@ -15,6 +15,9 @@ internal class StockObserver {
     }
 
     public void Update(StockState stock) {
+        Console.WriteLine(stock.price);
+        Console.WriteLine(_lowerbound);
+        Console.WriteLine(_upperbound);
         if (stock.price == -1 || stock.currency == string.Empty) {
             throw new InvalidOperationException("Received state with no information.");
         }

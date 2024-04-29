@@ -6,7 +6,6 @@ public class UserInput {
     public decimal buy_price {get ; set;}
 
     public UserInput(string[] args) {
-        // TODO: better input checking
         if (args.Length < 3) {
             throw new Exception("Not enough Arguments (Needed: 3)\nUsage: program.exe <Stock Symbol> <Sell Price> <Buy Price>");
         } else if (args.Length > 3) {
